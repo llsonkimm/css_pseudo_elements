@@ -1,0 +1,22 @@
+p.element1::first-line{
+    color: #ff0098;
+    font-variant: small-caps;
+}
+
+p.element2::first-letter{
+    color: #29091c;
+    font-size: xx-large;
+}
+
+h2::before{
+    content: url(images/marker-left.gif);
+}
+
+h2::after{
+    content: url(images/marker-right.gif);
+}
+
+p.article::first-letter{
+    color: #00ff69;
+    font-size: xx-large;
+}
